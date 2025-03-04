@@ -10,3 +10,5 @@ if ($db->connect_error) {
     echo 'connection failed';
     die();
 }
+
+session_start();
